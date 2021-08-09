@@ -1,0 +1,24 @@
+nav {
+    background-color: #1C4587;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    color: white;
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+button {
+    background-color: #BF9000;
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: ;
+}

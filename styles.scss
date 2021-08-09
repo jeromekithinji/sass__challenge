@@ -1,0 +1,97 @@
+// $primary-color: #1C4587;
+// $secondary-color: #BF9000;
+// $text-color: white;
+
+@import 'assets/styles/variables';
+@import 'assets/styles/buttons';
+
+// @use './assets/styles/varibales.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: $primary-color;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+
+    // .nav__title
+    &__title {
+        color: $text-color;
+        margin: 10px 10px 10px 20px;
+        font-size: 30px;
+    }
+}
+
+main {
+    background-color: $text-color;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // flex: wrap;
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 500px;
+        margin-bottom: 70px;
+    }
+
+    h1 {
+        color: $primary-color;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    h2 {
+        font-style: italic;
+        font-size: 30px;
+    }
+
+    .waveContainer{
+        width: 100%;
+        height: 10%;
+    }
+
+    .contact__container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border: 1px solid black;
+        background-color: lightgrey;
+        padding: 20px;
+        font-size: 25px;
+    }
+
+    .form__input {
+        height: auto;
+        width: 300px;
+        font-size: 30px;
+    }
+
+    .contact__submit {
+        background-color: darkcyan;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 150px;
+        height: 40px;
+        margin: 10px 0 10px 0;
+        border: 1px solid black;
+        cursor: pointer;
+        font-size: 25px;
+
+    }
+
+
+}
+
+

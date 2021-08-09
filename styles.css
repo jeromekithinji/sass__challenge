@@ -1,0 +1,83 @@
+.btn-primary {
+  background-color: #BF9000;
+  color: white;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 30px;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  background-color: #1C4587;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.nav__title {
+  color: white;
+  margin: 10px 10px 10px 20px;
+  font-size: 30px;
+}
+
+main {
+  background-color: white;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 500px;
+  margin-bottom: 70px;
+}
+main h1 {
+  color: #1C4587;
+  font-weight: bold;
+  font-size: 30px;
+}
+main h2 {
+  font-style: italic;
+  font-size: 30px;
+}
+main .waveContainer {
+  width: 100%;
+  height: 10%;
+}
+main .contact__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+  background-color: lightgrey;
+  padding: 20px;
+  font-size: 25px;
+}
+main .form__input {
+  height: auto;
+  width: 300px;
+  font-size: 30px;
+}
+main .contact__submit {
+  background-color: darkcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 150px;
+  height: 40px;
+  margin: 10px 0 10px 0;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 25px;
+}
